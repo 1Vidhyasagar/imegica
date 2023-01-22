@@ -13,9 +13,12 @@ const formRoutes= require('./routes/form')
 
 
 //middleware
-app.use(cors({
-    origin: ["http://localhost:3000","https://imegica-app.onrender.com"]
-}))
+app.use(cors());
+app.get("/", (req,res)=>{
+    res.setHeader("access-control-allow-credentials","true");
+    res.send("API is running...");
+});
+
 
 app.use(formRoutes)
 
