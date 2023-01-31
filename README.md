@@ -21,6 +21,10 @@ npm or yarn
 
 Check out the screenshots of the application in the screenshots folder of this repository.
 
+## video
+
+Check out the video of the application in the video folder of this repository.
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
